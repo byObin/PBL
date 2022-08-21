@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ThrowingGame.unity
     guid: e177452610669a4489b5e6d26e37f262
+  - enabled: 1
+    path: Assets/Scenes/chattingScene.unity
+    guid: 9670b2a7cb67149438a827a34f20821c
+  - enabled: 1
+    path: Assets/Scenes/ChatMain.unity
+    guid: 6036d7578fbcc86409eae58936ce4f9b
   m_configObjects: {}
