@@ -11,7 +11,7 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public Text IDtext;
     public Text ConnectionStatus;
 
-    //void Awake() => Screen.SetResolution(960, 540, false);
+    void Awake() => Screen.SetResolution(960, 540, false);
 
 
     // Start is called before the first frame update
@@ -61,7 +61,7 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public override void OnJoinRandomFailed(short returnCode, string message)
     {
         ConnectionStatus.text = "No empty room. creating new room...";
-        PhotonNetwork.CreateRoom(null, new RoomOptions { MaxPlayers = 7});
+        PhotonNetwork.CreateRoom(null, new RoomOptions { MaxPlayers = 4 });
     }
     public override void OnJoinedRoom()
     {

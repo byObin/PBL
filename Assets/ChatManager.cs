@@ -4,7 +4,6 @@ using UnityEngine.UI;
 using UnityEngine;
 using Photon.Realtime;
 using Photon.Pun;
-using UnityEngine.SceneManagement;
 
 
 public class ChatManager : MonoBehaviourPunCallbacks
@@ -51,20 +50,6 @@ public class ChatManager : MonoBehaviourPunCallbacks
             chatters += player.NickName + "\n";
         }
         chattingList.text = chatters;
-    }
-
-    public void backToChat()
-    {
-        SceneManager.LoadScene("Planet1");
-    }
-
-    public void LeaveRoom() => PhotonNetwork.LeaveRoom();
-
-    public void Disconnect() => PhotonNetwork.Disconnect();
-
-    public override void OnDisconnected(DisconnectCause cause)
-    {
-        SceneManager.LoadScene("Planet1");
     }
 
     [PunRPC]
