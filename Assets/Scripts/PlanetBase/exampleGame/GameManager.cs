@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     private GameObject panel;
+
     void Start()
     {
        
@@ -46,7 +47,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-    private bool stopTrigger = true;
+    private bool stopTrigger = false;
 
     public void GameOver()
     {
