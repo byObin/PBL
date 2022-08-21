@@ -724,7 +724,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecd8312bae79a654e870b8601aee1616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chatList: []
   sendBtn: {fileID: 1438183656}
   chatLog: {fileID: 784451999}
   chattingList: {fileID: 1417505434}
@@ -1330,8 +1329,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 253.46454, y: 176.36307}
-  m_SizeDelta: {x: 254.9291, y: 35.2739}
+  m_AnchoredPosition: {x: 254.0023, y: -4.8845}
+  m_SizeDelta: {x: 260.3074, y: 397.7695}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1417505434
 MonoBehaviour:
@@ -1360,7 +1359,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 3
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
