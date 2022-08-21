@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Planet1.unity
     guid: 8e5a30eaf6dcbc94a8bb3d54f74a4f81
   - enabled: 1
-    path: Assets/Scenes/Planet2.unity
+    path: Assets/Scenes/CherryGameScene.unity
     guid: df5aeb1ea20d0744e90c35a8f2508d95
   - enabled: 1
     path: Assets/Scenes/Planet3.unity
